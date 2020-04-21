@@ -1,0 +1,53 @@
+ @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
+ body {
+	background: url(images/Rocky.jpg);
+	background-size: cover;
+	font-family: helvetica;
+	margin: 30px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+h1 {font-family: 'Orbitron', sans-serif;
+	font-style: bold;
+	letter-spacing: 2px;
+	
+}
+
+h3 {
+	font-family: Roboto Slab, serif;
+	font-size: 24px;
+	color: white;
+}
+
+p {
+	font-family: Roboto Slab, serif;
+	font-size: 16px;
+	color: #CCB399;
+}
+
+ul {
+	font-family: Roboto Slab, serif;
+	font-size: 14px;
+	color: #CCB399;
+	list-style-type: none;
+}
+a {
+color: #807060;
+text-decoration: none;
+font-family: Roboto Slab, serif;
+}
+
+a:link {
+color: #8FC9FF;
+text-decoration: underline;
+font-family: Roboto Slab, serif;
+}
