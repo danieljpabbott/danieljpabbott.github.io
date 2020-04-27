@@ -1,14 +1,42 @@
  @import url('https://fonts.googleapis.com/css?family=Orbitron&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap');
- body {
+
+header {
+	background-color: #FFED74;
+	border:1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color:#E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+article {
+	background-color:#E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+footer {
+	background-color:#FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+section {
+	background color:#FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+
+body {
 	background: url(images/Rocky.jpg);
 	background-size: cover;
 	font-family: helvetica;
 	margin: 30px;
-}
-
-div {
-	display: right;
 }
 
 h1 {font-family: 'Orbitron', sans-serif;
@@ -36,15 +64,10 @@ ul {
 	color: #CCB399;
 	list-style-type: none;
 }
+
 a {
-color: #807060;
+color: #blue;
 text-decoration: none;
 font-family: Roboto Slab, serif;
 display: inline;
-}
-
-a:link {
-color: #8FC9FF;
-text-decoration: underline;
-font-family: Roboto Slab, serif;
 }
