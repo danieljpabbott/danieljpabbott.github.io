@@ -43,6 +43,19 @@ h1 {
 
 }
 
+h4 {
+	font-family: Merriweather;
+}
+
+h3 {
+	font-family: Poppins;
+}
+
+p {
+	font-family: Merriweather;
+	font-size: 14px;
+}
+
 body {
 	background: url(https://i.ytimg.com/vi/m-hMZB_Koy0/maxresdefault.jpg)
 	no-repeat;
