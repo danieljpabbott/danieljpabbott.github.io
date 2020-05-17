@@ -1,30 +1,33 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
+
 .fixednav {
-background-color: 0;
-position: fixed;
-top: 0;
-width: 100%;
-height: 20px;
-background-color: rgba(0, 0, 0, .5);
-font-size: 1em;
-text-align: center;
-padding: 5px;
-border-bottom: 1px black solid;
+	background-color: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 25px;
+	background-color: rgba(0, 0, 0, .8);
+	font-size: 1em;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 5px;
+	border-bottom: 1px black solid;
 }
 
-a {
-font-family: arial, sans-serif;
-color: white;
-text-decoration: none;
-display: inline-block;
-margin: 0 120px;
-padding: 0 20px;
-text-align: center;
+header nav a {
+	font-family: arial, sans-serif;
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0 120px;
+	padding: 5px 15px;
+	text-align: center;
 }
 
-a:hover {
+header nav a:hover {
 	background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -37,11 +40,12 @@ h1 {
 	letter-spacing: 2px;
 	background-color: rgba(0, 0, 0, .5);
 	border: 1px black solid;
-	padding: 10px;
-	margin: 275px 0 375px 0;
+	padding: 50px;
+	margin: 275px 0 300px 0;
 	display: block;
 
 }
+
 
 h4 {
 	font-family: Merriweather;
@@ -70,6 +74,7 @@ body {
 	float: left;
 	width: 48%;
 	display: inline;
+	min-height: 10em;
 }
 
 #right {
@@ -80,6 +85,7 @@ body {
 	float: right;
 	width: 48%;
 	display:inline;
+	min-height: 10em;
 }
 
 .clearfix:after {
@@ -116,12 +122,18 @@ body {
 
 footer {
 	background-color: rgba(0, 0, 0, .5);
-	padding: 20px;
+	padding: 10px;
 	text-align: center;
 	border: 1px solid black;
 	margin: 0 0 10px 0;
 }
 
-.footernav {
-	padding: 0 40px;
+footer nav a {
+	padding: 10px 10px;
+	margin: 0 80px;
 }
+
+footer nav a:hover {
+background-color: rgba(255, 255, 255, 0.3);
+}
+
