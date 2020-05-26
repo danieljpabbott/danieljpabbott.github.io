@@ -1,34 +1,35 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Merriweather&display=swap');
 
-
 .fixednav {
 	background-color: 0;
 	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 25px;
+	height: 5%;
 	background-color: rgba(0, 0, 0, .8);
 	font-size: 1em;
 	text-align: center;
 	text-transform: uppercase;
-	padding: 5px;
+	padding: .35%;
 	border-bottom: 1px black solid;
 }
 
 header nav a {
-	font-family: arial, sans-serif;
+	font-family: Poppins, sans-serif;
+	text-decoration: bold;
 	color: white;
 	text-decoration: none;
+	font-weight: bold;
 	display: inline-block;
-	margin: 0 120px;
-	padding: 5px 15px;
+	margin: 0 5%;
+	padding: .5% 3%;
 	text-align: center;
 }
 
 header nav a:hover {
-	background-color: rgba(255, 255, 255, 0.3);
+	background-color: rgba(153, 153, 153, 0.3);
 }
 
 h1 {
@@ -37,15 +38,13 @@ h1 {
 	text-align: center;
 	font-style: bold;
 	font-size: 6em;
-	letter-spacing: 2px;
+	letter-spacing: .1em;
 	background-color: rgba(0, 0, 0, .5);
 	border: 1px black solid;
-	padding: 50px;
-	margin: 275px 0 300px 0;
+	padding: 3%;
+	margin: 18% 0 23% 0;
 	display: block;
-
 }
-
 
 h4 {
 	font-family: Merriweather;
@@ -57,7 +56,7 @@ h3 {
 
 p {
 	font-family: Merriweather;
-	font-size: 14px;
+	font-size: 1em;
 }
 
 body {
@@ -69,8 +68,8 @@ body {
 #left {
 	background-color: rgba(89, 156, 90, .8);
 	border: 1px solid black;
-	padding: 10px;
-	margin: 0 0 10px 0;
+	padding: .8%;
+	margin: 0 0 .5% 0;
 	float: left;
 	width: 48%;
 	display: inline;
@@ -80,8 +79,8 @@ body {
 #right {
 	background-color: rgba(89, 156, 90, .8);
 	border: 1px black solid;
-	padding: 10px;
-	margin: 0 0 10px 0;
+	padding: .8%;
+	margin: 0 0 .5% 0;
 	float: right;
 	width: 48%;
 	display:inline;
@@ -97,10 +96,10 @@ body {
 }
 
 .plantbar {
-	padding: 10px;
+	padding: .4%;
 	background-color: rgba(89, 156, 90, .5);
 	border: 1px black solid;
-	margin: 0 0 10px 0;
+	margin: 0 0 .5% 0;
 	display: center;
 }
 
@@ -108,32 +107,84 @@ body {
 	float: left;
 	width: 20%;
 	padding :2em;
-	margin: 2px;
+	margin: .13em;
 	text-align: center;
 	background-color: rgba(158, 158, 158, .8);
 	border: 1px black solid;
 }
 
-#plant1, #plant2, #plant3, #plant4 {
+section img {
 	border: 1px black solid;
   	display: block center;
 }
 
+section img:hover {
+	filter: invert(90%);
+	transition: 2s;
+}
 
 footer {
 	background-color: rgba(0, 0, 0, .5);
-	padding: 10px;
+	padding: .5% .9%;
 	text-align: center;
 	border: 1px solid black;
-	margin: 0 0 10px 0;
+	margin: 0 0 .5% 0;
 }
 
 footer nav a {
-	padding: 10px 10px;
-	margin: 0 80px;
+	padding: .8% 1%;
+	margin: 0 8%;
+	display: inline-block;
 }
 
 footer nav a:hover {
 background-color: rgba(255, 255, 255, 0.3);
 }
 
+@media only screen and (max-width: 1430px) {
+	.column {
+		width: auto;
+	}
+	#left, #right {
+		float: none;
+		display: block;
+		width: auto;
+	}
+	body img { 
+	max-width: 100; 
+	height: auto;
+	}
+}
+
+@media only screen and (max-width: 1113px) {
+	h1 {
+		font-size: 4em;
+		padding: 4%;
+		margin: 15% 0 24% 0;
+	
+	}
+}
+
+@media only screen and (max-width: 763px) {
+	h1 {
+		font-size: 2em;
+		padding: 5%;
+	}
+
+header nav a {
+	display: block;
+	background-color: rgba(0, 0, 0, .8);
+	padding: .5% 3%;
+	border: black solid 1px;
+}
+
+header nav a:hover {
+	background-color: rgba(0, 0, 0, .5);
+}
+
+.fixednav {
+	background: none;
+	border: none;
+}
+
+}
