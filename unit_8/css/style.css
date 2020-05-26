@@ -32,6 +32,7 @@ header nav a:hover {
 	background-color: rgba(153, 153, 153, 0.3);
 }
 
+
 h1 {
 	font-family: Poppins, sans-serif;
 	color: #98b339;
@@ -52,6 +53,10 @@ h4 {
 
 h3 {
 	font-family: Poppins;
+}
+
+h4 {
+	margin-bottom: .5em;
 }
 
 p {
@@ -116,11 +121,13 @@ body {
 section img {
 	border: 1px black solid;
   	display: block center;
+  	width: 100%;
 }
 
 section img:hover {
 	filter: invert(90%);
 	transition: 2s;
+	z-index: -3;
 }
 
 footer {
@@ -143,7 +150,7 @@ background-color: rgba(255, 255, 255, 0.3);
 
 @media only screen and (max-width: 1430px) {
 	.column {
-		width: auto;
+		width: 20%;
 	}
 	#left, #right {
 		float: none;
@@ -169,6 +176,7 @@ background-color: rgba(255, 255, 255, 0.3);
 	h1 {
 		font-size: 2em;
 		padding: 5%;
+		margin: 3em 0 2em 0;
 	}
 
 header nav a {
@@ -185,6 +193,19 @@ header nav a:hover {
 .fixednav {
 	background: none;
 	border: none;
+	position: sticky;
+}
+
+@media only screen and (max-width: 640px) {
+	h1 {
+		margin: 1.5em 0 2.5em 0;
+	}
+}
+
+@media only screen and (max-width: 520px) {
+	h1 {
+		margin: .7em 0 1.3em 0;
+	}
 }
 
 }
